@@ -1,4 +1,8 @@
+:root{
+    --backgoundColor:#1f1f1f;
+    --textColor:#f1f1f1;
 
+}
 
 
 
@@ -9,8 +13,8 @@
 }
 body{
     font-family: Arial, sans-serif;
-    background: #1f1f1f;
-    color: #f1f1f1;
+    background: var(--backgoundColor);
+    color: var(--textColor);
 }
 
 
@@ -23,7 +27,7 @@ header{
     left: 0;
     right: 0;
     padding: 1.5em 1em;
-    background: #1f1f1f;
+    background: var(--backgoundColor);
 }
 header i{
     font-size: 120%;
@@ -48,7 +52,7 @@ footer{
     right: 0;
     height: 2.5em;
     font-size: 120%;
-    background: #1f1f1f;
+    background: var(--backgoundColor);
     cursor: pointer;
 }
 

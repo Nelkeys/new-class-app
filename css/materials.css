@@ -1,1 +1,15 @@
 @import url(/css/general/styles.css) all;
+
+
+.course-list{
+    margin: 5em 1em 5em 1em;
+    border: 1px solid red;
+}
+
+.block{
+    padding: .5em 1em;
+    background: green;
+    line-height: 1.5em;
+    border-radius: .5em;
+    margin-bottom: .5em;
+}
